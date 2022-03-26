@@ -1,0 +1,36 @@
+.statement{
+    background-color: rgb(255, 255, 255);
+    color: rgb(47, 0, 134);
+    font-size: x-large;
+    font-weight: 900;
+    padding: .7em;
+    border-radius: .3em;
+    border-bottom: solid rgb(248, 247, 247);
+    display: inline-block;
+    width: max-content;
+    max-width: 90vw;
+    z-index: 1;
+}
+
+.post{
+    padding-left: 1rem;
+    align-self: flex-end;
+}
+
+.colStatement{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    display: flex;  
+    flex-direction: column;          /* top to bottom */
+    justify-content: space-between;
+}
+
+.picture{
+    z-index: -1;
+    border-radius: .5em;
+}
+
+.colPicture{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

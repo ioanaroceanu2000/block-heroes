@@ -1,0 +1,26 @@
+.title{
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: Verdana, sans-serif;
+    letter-spacing: -0.2rem;
+}
+
+.menutext{
+    font-size:large;
+    margin-left: 1rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0) !important; 
+    font-family: Verdana, sans-serif;
+}
+
+.menutext:hover{
+    color: rgb(94, 94, 94) !important; 
+}
+
+.container{
+    margin: 0rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    padding: 0rem;
+    max-width: 100%;
+}
