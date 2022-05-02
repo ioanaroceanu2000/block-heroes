@@ -1,6 +1,7 @@
 .statement{
     background-color: rgb(255, 255, 255);
-    color: rgb(47, 0, 134);
+    color: rgb(176, 0, 199);
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1), 0px -1px 1px rgba(0, 0, 0, 0.1);
     font-size: x-large;
     font-weight: 900;
     padding: .7em;
@@ -11,6 +12,8 @@
     max-width: 90vw;
     z-index: 1;
 }
+
+
 
 .post{
     padding-left: 1rem;
@@ -33,4 +36,10 @@
 .colPicture{
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.divider{
+    background-color: rgb(180, 180, 180) !important;
+    margin-left: 25% !important;
+    width: 50%;
 }

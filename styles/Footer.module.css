@@ -1,0 +1,64 @@
+.wrappingDiv{
+    --text-opacity: 0.9;
+    background-color: rgb(2, 1, 1);
+    color: rgba(255, 255, 255, var(--text-opacity));
+}
+
+.subTitle{
+    padding-bottom: 1em;
+    font-weight: 200;
+    font-size: x-large;
+    font-family: Verdana, sans-serif;
+}
+
+.subInfo{
+    font-size: small;
+}
+
+.title{
+    vertical-align: middle;
+    display: inline;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: Verdana, sans-serif;
+    letter-spacing: -0.2rem;
+    color: rgba(255, 254, 254, var(--text-opacity));
+    text-shadow: 2px 4px 6px rgba(176, 0, 199, 0.2), 0px -2px 2px rgba(0,0,0,0.1);
+}
+
+.pictureContainer{
+    opacity: var(--text-opacity);
+    display: inline-block;
+    vertical-align: middle;
+    width: 3.5em;
+}
+
+.col{
+    align-self: flex-start;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+#colLogo{
+    align-self: center;
+}
+
+.divForm{
+    display: inline-block;
+}
+
+.form{
+    display: flex;
+    padding-top: 0.7em;
+}
+
+.input{
+    width: 80%;
+    margin-right: 0.5em !important;
+}
+
+.article{
+    color: rgb(255, 255, 255, var(--text-opacity));
+    text-decoration: underline;
+
+}

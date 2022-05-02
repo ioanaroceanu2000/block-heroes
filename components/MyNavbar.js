@@ -7,7 +7,7 @@ import styles from '../styles/MyNavbar.module.css'
 
 function MyNavbar() {
   return(
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+    <Navbar collapseOnSelect expand="lg" variant="dark" className={styles.navbar}>
       <Container className={styles.container}>
       <Link href="/" passHref>
         <Navbar.Brand>

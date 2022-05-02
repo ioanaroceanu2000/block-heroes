@@ -1,3 +1,5 @@
+import Footer from '../components/Footer'
+import Library from '../components/Library'
 import MyNavbar from '../components/MyNavbar'
 import Vision from '../components/Vision'
 
@@ -6,7 +8,8 @@ export default function Home() {
     <div>
       <MyNavbar/>
       <Vision/>
-      <p>Hello</p>
+      <Library/>
+      <Footer/>
     </div>
   )
 }

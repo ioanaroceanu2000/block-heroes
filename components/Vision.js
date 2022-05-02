@@ -17,7 +17,7 @@ function Vision() {
       <div>
         <Container>
             <Row>
-                <Col lg="4" className={styles.colStatement}>
+                <Col sm={{ span: 12, order: 2 }} xs={{ span: 12, order: 2 }} lg={{ span: 4, order: 1 }} className={styles.colStatement}>
                 <p className={styles.statement}>
                     WEB3 
                     <span style={{letterSpacing: '0.1em'}}>  things </span>
@@ -34,7 +34,7 @@ function Vision() {
                     </div>                   
                     
                 </Col>
-                <Col lg="8" className={styles.colPicture}>
+                <Col sm={{ span: 12, order: 1 }} xs={{ span: 12, order: 1 }} lg={{ span: 8, order: 2 }} className={styles.colPicture}>
                     <Image
                     src={pic}
                     alt="Block Heroes Background"
@@ -45,7 +45,7 @@ function Vision() {
                 </Col>
             </Row>
             <Row>
-            <Divider/>
+            <Divider className={styles.divider}/>
             </Row>
         </Container>
       </div>

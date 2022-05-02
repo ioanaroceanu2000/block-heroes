@@ -1,0 +1,46 @@
+.meta{
+    font-size: small;
+    color: rgb(70, 0, 199);
+}
+
+.summary{
+    font-size: medium;
+    text-align: justify;
+}
+
+.title{
+    font-weight: 700;
+    padding-bottom: 0.2em;
+}
+
+.pictureContainer{
+    display: block;
+}
+
+.picture{
+    padding-bottom: 0.5em !important;
+    border-radius: .5em;
+}
+
+.link{
+    margin-bottom: 2em;
+    border: solid rgba(255, 255, 255, 0.1) 0.2em;
+    border-radius: 1em;
+    color: black;
+}
+
+.link:hover{
+    border-radius: 1em;
+    color: black;
+    width: 102%;
+    background-color: rgb(233, 232, 232);
+}
+
+.link:visited{
+    color: black;
+}
+
+.meta{
+    font-size: small;
+    color: rgb(176, 0, 199);
+}
